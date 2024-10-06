@@ -1,2 +1,0 @@
-config SHIELD_Santa_Cruz
-    def_bool $(shields_list_contains,Santa Cruz)

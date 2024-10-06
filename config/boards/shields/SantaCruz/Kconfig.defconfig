@@ -1,6 +1,6 @@
 if SHIELD_E46
 
 config ZMK_KEYBOARD_NAME
-    default "Santa Cruz"
+    default "SantaCruz"
 
 endif
