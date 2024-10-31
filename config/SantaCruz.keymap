@@ -21,10 +21,10 @@
             // |-------|ADJUST| LCTL | LALT | LGUI | LOWR | SPACE | SPACE |  RAIS | LEFT | DOWN | UARW  | RARW  |-------|
 
             bindings = <
-&kp TAB   &kp Q      &kp W      &kp E      &kp R           &kp T           &kp Y            &kp U      &kp I       &kp O           &kp P           &kp X           &kp X          &kp BSPC
-&kp CAPS  &kp A      &kp S      &kp D      &kp F           &kp G           &kp H            &kp J      &kp K       &kp L           &kp X           &kp X           &kp ENTER
-&kp LSHFT &kp Z      &kp X      &kp C      &kp V           &kp B           &kp N            &kp M      &kp COMMA   &kp X           &kp X           &kp RSHIFT
-&kp LCTRL  &kp LALT  &kp LGUI              &kp SPACE                                        &kp &mo 1  &kp &mo 2   &kp &mo 3       &kp &mo 4
+&kp TAB          &kp Q             &kp W         &kp E             &kp R      &kp T  &kp Y  &kp U  &kp I  &kp O      &kp P       &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp BSPC         &kp CAPS          &kp A         &kp S             &kp D      &kp F  &kp G  &kp H  &kp J  &kp K      &kp L       &kp SEMICOLON     &kp SQT
+&kp ENTER        &kp LSHFT         &kp Z         &kp X             &kp C      &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp PERIOD  &kp SLASH         &mo 1
+&kp RIGHT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE  &mo 1  &mo 2  &mo 2  &mo 2  &kp A      &kp A       &kp A
             >;
         };
 
@@ -37,19 +37,19 @@
             // |-------|      |      |      |      |      |       |       |       | NEXT  | Vol- | Vol+ | PLAY  |-------|
 
             bindings = <
-&kp TAB   &kp Q      &kp W      &kp E      &kp R           &kp T           &kp Y            &kp U      &kp I       &kp O           &kp P           &kp X           &kp X          &kp BSPC
-&kp CAPS  &kp A      &kp S      &kp D      &kp F           &kp G           &kp H            &kp J      &kp K       &kp L           &kp X           &kp X           &kp ENTER
-&kp LSHFT &kp Z      &kp X      &kp C      &kp V           &kp B           &kp N            &kp M      &kp COMMA   &kp X           &kp X           &kp RSHIFT
-&kp LCTRL  &kp LALT  &kp LGUI              &kp SPACE                                        &kp &mo 1  &kp &mo 2   &kp &mo 3       &kp &mo 4
+&kp ESC  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp N7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BSPC  &mo 0
+&none    &none         &none         &none         &none         &none         &none         &none   &none         &none         &none         &mo 1
+&none &none    &none         &none         &none         &none         &none         &none         &none   &none         &none         &mo 2
+&none     &none &none    &none         &none         &none         &bt BT_PRV    &none         &bt BT_NXT
             >;
         };
 
         media {
-            bindings = <
-&kp TAB   &kp Q      &kp W      &kp E      &kp R           &kp T           &kp Y            &kp U      &kp I       &kp O           &kp P           &kp X           &kp X          &kp BSPC
-&kp CAPS  &kp A      &kp S      &kp D      &kp F           &kp G           &kp H            &kp J      &kp K       &kp L           &kp X           &kp X           &kp ENTER
-&kp LSHFT &kp Z      &kp X      &kp C      &kp V           &kp B           &kp N            &kp M      &kp COMMA   &kp X           &kp X           &kp RSHIFT
-&kp LCTRL  &kp LALT  &kp LGUI              &kp SPACE                                        &kp &mo 1  &kp &mo 2   &kp &mo 3       &kp &mo 4
+                        bindings = <
+&kp TAB          &kp Q             &kp W         &kp E             &kp R      &kp T  &kp Y  &kp U  &kp I  &kp O      &kp P       &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp BSPC         &kp CAPS          &kp A         &kp S             &kp D      &kp F  &kp G  &kp H  &kp J  &kp K      &kp L       &kp SEMICOLON     &kp SQT
+&kp ENTER        &kp LSHFT         &kp Z         &kp X             &kp C      &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp PERIOD  &kp SLASH         &mo 1
+&kp RIGHT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE  &mo 1  &mo 2  &mo 2  &mo 2  &kp A      &kp A       &kp A
             >;
         };
     };
