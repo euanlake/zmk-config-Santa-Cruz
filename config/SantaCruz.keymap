@@ -20,9 +20,9 @@
             // |-------|ADJUST| LCTL | LALT | LGUI | LOWR | SPACE | SPACE |  RAIS | LEFT | DOWN | UARW  | RARW  |-------|
 
             bindings = <
-&kp TAB          &kp Q             &kp W         &kp E             &kp R      &kp T  &kp Y  &kp I  &kp U       &kp O  &kp P       &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp BSPC         &kp CAPS          &kp A         &kp S             &kp D      &kp F  &kp G  &kp H  &kp K       &kp J  &kp L       &kp SEMICOLON     &kp SQT
-&kp ENTER        &kp LSHFT         &kp Z         &kp X             &kp C      &kp V  &kp B  &kp N  &kp PERIOD  &kp M  &kp PERIOD  &kp SLASH         &mo 1
+&kp TAB          &kp Q             &kp W         &kp E             &kp R      &kp T  &kp Y  &kp I  &kp U      &kp O  &kp P       &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp BSPC         &kp CAPS          &kp A         &kp S             &kp D      &kp F  &kp G  &kp H  &kp K      &kp J  &kp L       &kp SEMICOLON     &kp SQT
+&kp ENTER        &kp LSHFT         &kp Z         &kp X             &kp C      &kp V  &kp B  &kp N  &kp COMMA  &kp M  &kp PERIOD  &kp SLASH         &mo 1
 &kp RIGHT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE  &mo 1  &mo 2  &mo 2  &mo 2
             >;
         };
