@@ -36,7 +36,7 @@
             // |-------|      |      |      |      |      |       |       |       | NEXT  | Vol- | Vol+ | PLAY  |-------|
 
             bindings = <
-&kp TAB          &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS      &kp EQUAL
+&kp GRAVE        &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS      &kp EQUAL
 &kp BSPC         &kp CAPS          &kp A         &kp S             &kp D         &kp F         &kp G         &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON  &kp SQT
 &kp ENTER        &kp LSHFT         &kp Z         &kp X             &kp C         &kp V         &kp B         &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SLASH      &mo 1
 &kp RIGHT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE     &mo 1         &mo 2         &mo 2         &mo 2
