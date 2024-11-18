@@ -20,10 +20,10 @@
             // |-------|ADJUST| LCTL | LALT | LGUI | LOWR | SPACE | SPACE |  RAIS | LEFT | DOWN | UARW  | RARW  |-------|
 
             bindings = <
-&kp TAB          &kp Q             &kp W         &kp E             &kp R      &kp T  &kp Y           &kp I           &kp U            &kp O  &kp P       &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp BSPC         &kp CAPS          &kp A         &kp S             &kp D      &kp F  &kp G           &kp H           &kp K            &kp J  &kp L       &kp SEMICOLON     &kp SQT
-&kp ENTER        &kp LSHFT         &kp Z         &kp X             &kp C      &kp V  &kp B           &kp N           &kp COMMA        &kp M  &kp PERIOD  &kp SLASH         &kp UP_ARROW
-&kp RIGHT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE  &mo 1  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp TAB    &kp Q             &kp W         &kp E             &kp R      &kp T  &kp Y           &kp I           &kp U            &kp O  &kp P       &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp BSPC   &kp CAPS          &kp A         &kp S             &kp D      &kp F  &kp G           &kp H           &kp K            &kp J  &kp L       &kp SEMICOLON     &kp SQT
+&kp ENTER  &kp LSHFT         &kp Z         &kp X             &kp C      &kp V  &kp B           &kp N           &kp COMMA        &kp M  &kp PERIOD  &kp SLASH         &kp UP_ARROW
+&mo 3      &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE  &mo 1  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
@@ -54,10 +54,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans            &trans      &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans            &trans      &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans            &trans      &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_PREV  &kp C_PAUSE  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans      &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans      &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans      &trans             &trans
             >;
         };
     };
